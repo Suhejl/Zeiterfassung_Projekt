@@ -4,7 +4,6 @@ import java.sql.*;
 import java.util.LinkedList;
 
 public class Main1 {
-
   public LinkedList getEntries(){
     Connection connection = null;
     LinkedList entries = new LinkedList();
@@ -15,6 +14,10 @@ public class Main1 {
       e.printStackTrace();
     }
     return entries;
+  }
+
+  public void hey(){
+    
   }
 
 }
