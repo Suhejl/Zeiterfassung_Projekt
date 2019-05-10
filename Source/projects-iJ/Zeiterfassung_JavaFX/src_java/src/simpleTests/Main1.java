@@ -15,9 +15,5 @@ public class Main1 {
     }
     return entries;
   }
-
-  public void hey(){
-    
-  }
-
+  
 }
