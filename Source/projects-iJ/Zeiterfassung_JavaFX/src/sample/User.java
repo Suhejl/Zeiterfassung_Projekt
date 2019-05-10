@@ -1,5 +1,7 @@
 package sample;
 
+
+
 public class User {
   String id;
   String name;
@@ -7,6 +9,7 @@ public class User {
   String email;
   String tel;
   String notes;
+
 
   public User(String id, String name, String firstname, String email, String tel, String notes) {
     this.id = id;
@@ -64,6 +67,4 @@ public class User {
   public void setNotes(String notes) {
     this.notes = notes;
   }
-
-
 }
